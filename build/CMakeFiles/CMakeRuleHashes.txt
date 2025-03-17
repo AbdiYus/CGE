@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+9e96c39cd5ebb0f9fedd1a121894ee70 external/glfw/src/CMakeFiles/update_mappings
+e7346b8f92c57401c7b8fcec3ab9c4a3 external/tinyobjloader/CMakeFiles/uninstall

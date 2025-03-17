@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc ../lib/libCGE.a CMakeFiles/CGE.dir/CGE/CGE.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe ../lib/libCGE.a

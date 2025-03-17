@@ -1,0 +1,346 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "external/glad",
+					"jsonFile" : "directory-external.glad-Debug-fe552af5a86a4942293e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glad",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-external.glfw-Debug-32262a0c72daaba76ac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/glfw"
+				},
+				{
+					"build" : "external/glfw/src",
+					"jsonFile" : "directory-external.glfw.src-Debug-1c6013c09899f4bbf608.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						7
+					]
+				},
+				{
+					"build" : "external/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-external.glm-Debug-c35beecffdababf19b76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/glm"
+				},
+				{
+					"build" : "external/glm/glm",
+					"jsonFile" : "directory-external.glm.glm-Debug-abc7302ed9fa59a98343.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "external/glm/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/tinyobjloader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.tinyobjloader-Debug-3eeade412a65b0d28b44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "external/tinyobjloader",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "framework",
+					"jsonFile" : "directory-framework-Debug-beda9666560c34841701.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "framework",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/triangle",
+					"jsonFile" : "directory-examples.triangle-Debug-a94a12876ef5f47394d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "examples/triangle",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CGE"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "tinyobjloader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "framework",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						7
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "examples",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "triangle",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "CGE::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-CGE-Debug-600a1c047437ec3741b2.json",
+					"name" : "CGE",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@55512df44c152ef9a2ca",
+					"jsonFile" : "target-glad-Debug-dfb6182333b51809bc1d.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-glfw-Debug-fdba25256fdeabeb41db.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glm::@d090a432591bc19a3a56",
+					"jsonFile" : "target-glm-Debug-b4c30b0f17996578783e.json",
+					"name" : "glm",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tinyobjloader::@1d01870daa05c476c342",
+					"jsonFile" : "target-tinyobjloader-Debug-9c28f127c0a43309827f.json",
+					"name" : "tinyobjloader",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "triangle::@8fe6b3755c12c1bbd912",
+					"jsonFile" : "target-triangle-Debug-215eddfd2597d2646fc1.json",
+					"name" : "triangle",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uninstall::@1d01870daa05c476c342",
+					"jsonFile" : "target-uninstall-Debug-414cbcee92650cb59b94.json",
+					"name" : "uninstall",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-update_mappings-Debug-9d9331c4eeefd42d5b69.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/yusab/Desktop/projects/CGE/build",
+		"source" : "C:/Users/yusab/Desktop/projects/CGE"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

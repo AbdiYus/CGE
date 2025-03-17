@@ -1,6 +1,8 @@
-
 cmake_minimum_required(VERSION 3.15)
 project(CGE)
+
+# Generate compile_commands.json 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Disable compiler-specific extensions to the C++ standard. This ensures that the
 # codebase remains portable and can be compiled using any compliant C++ compiler.
@@ -33,3 +35,9 @@ add_subdirectory(external/tinyobjloader)
 # of single-header libraries, this approach makes it easy to integrate into the project.
 add_library(stb INTERFACE)
 target_include_directories(stb INTERFACE external/stb)
+
+add_library(imgui INTERFACE)
+target_include_directories(imgui INTERFACE external/imgui)
+
+add_subdirectory(framework)
+add_subdirectory(examples)
